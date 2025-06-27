@@ -12,6 +12,6 @@ def send_user_list_email():
         subject="Kullanıcı Listesi",
         message=user_data,
         from_email=settings.DEFAULT_FROM_EMAIL,
-        recipient_list=['kutayyildirim688@gmail.com'],
+        recipient_list=['your_gmail'],
         fail_silently=False,
     )
